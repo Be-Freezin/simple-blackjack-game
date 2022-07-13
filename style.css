@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    text-align: center;
+}
+
+.main-wrapper{
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url("black-jack-table.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    color: #c5bcab;
+    font-size: 2rem;
+    text-shadow: -1px 1px black;
+}
+h4{
+    color: #c5bcab;
+    font-size: 1.2rem;
+    text-shadow: -1px 1px black;
+}
+p{
+    color: #d7d8ce; 
+    font-size: 1.5rem;
+    text-shadow: -1px 1px black;
+}
+button{
+    width: 150px;
+    margin: 4px;
+    padding: 4px 8px;
+    background-color: #3d9463;
+    color: #d7d8ce;
+    border: 2px solid #062814 ;
+    border-radius: 2px;
+    font-weight: bold;
+    text-shadow: -1px 1px black;
+    cursor: pointer;
+}
+.button-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
